@@ -167,3 +167,6 @@ Identificar todas las personas involucradas activamente en el desarrollo de un p
 - Focus Groups.
 - Lista de chequeo.
 
+### Requeimientos funcionales y no funcionales
+Funcionales - Todos los requerimientos que interactúan con el usuario.
+No Funcionales - Todo lo que necesita para servir apropiadamente.
