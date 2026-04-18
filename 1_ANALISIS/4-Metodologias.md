@@ -107,3 +107,38 @@ _Principios Lean:_
 - Potenciar al equipo.
 - Crear la integridad.
 - Véase todo el conjunto
+
+
+### SAFe
+
+Sí, SAFe (Scaled Agile Framework) se considera a menudo un enfoque híbrido porque combina principios Ágiles (Scrum, Kanban, XP) con estructuras de gobernanza, planificación a largo plazo y gestión de carteras tradicionales,
+
+_Roles:_
+- Nivel Equipo (Agile Team):
+  - Scrum Master / Team Coach: Facilita el equipo, elimina impedimentos y fomenta la agilidad.
+  - Product Owner (PO): Representa al cliente, gestiona y prioriza el backlog del equipo.
+  - Miembros del Equipo: Desarrollan, prueban y entregan el valor (desarrolladores, testers).
+- Nivel Programa (Agile Release Train - ART):
+  - Release Train Engineer (RTE): Actúa como un "Scrum Master de trenes", facilitando el ART y la planificación PI.
+  - Product Manager (PM): Define y prioriza las funcionalidades (features) del programa.
+  - Arquitecto de Sistema/Ingeniero: Define la arquitectura técnica y visión del sistema.
+  - Business Owners: Partes interesadas clave responsables del retorno de inversión (ROI).
+- Nivel Solución (Solution Train):
+  - Solution Train Engineer (STE): Facilita el trabajo de múltiples trenes.
+  - Solution Manager: Gestiona el backlog de la solución y las capacidades.
+  - Solution Architect/Engineer: Define la arquitectura técnica de la solución.
+
+
+### Foro
+
+Esta combinación te permite dar seguridad a los organismos públicos (que suelen pedir fechas y presupuestos fijos) mientras mantienes la flexibilidad para ajustar la aplicación según el feedback de los ciudadanos.
+
+Requerimientos Legales y de Privacidad: El manejo de datos ciudadanos y la validación OTP que mencionaste requieren un marco legal claro desde el día uno.
+
+Arquitectura de Datos: Definir cómo se guardarán los puntos georreferenciados para que sean compatibles con los sistemas de las autoridades ambientales.
+
+Una vez definida la base, pasa a un ciclo ágil de 2 semanas:
+
+Scrum para el Desarrollo: Usa Sprints para entregar funcionalidades concretas (ej. Sprint 1: Autenticación OTP; Sprint 2: Mapa interactivo y marcador de puntos).
+
+Kanban para Soporte y Mejora: Ideal para gestionar los reportes de errores una vez que la plataforma esté en manos de los ciudadanos de zonas periféricas.
